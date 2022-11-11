@@ -1,0 +1,391 @@
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UICorner = Instance.new("UICorner")
+local AnimationPack = Instance.new("TextButton")
+local AntiStomp = Instance.new("TextButton")
+local ClickTp = Instance.new("TextButton")
+local FakeMacro = Instance.new("TextButton")
+local Fly = Instance.new("TextButton")
+local AdminFly = Instance.new("TextButton")
+local RemoveDisplay = Instance.new("TextButton")
+local RemoveFog = Instance.new("TextButton")
+local SafeAfk = Instance.new("TextButton")
+local GodBlock = Instance.new("TextButton")
+local Decor = Instance.new("TextLabel")
+local GodMode = Instance.new("TextButton")
+local GodBullet = Instance.new("TextButton")
+local DEcoire2 = Instance.new("TextLabel")
+local AntiLock = Instance.new("TextButton")
+local Tittle = Instance.new("TextLabel")
+local Creds = Instance.new("TextLabel")
+local Updates = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local Open = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Main.Position = UDim2.new(0.25223437, 0, 0.205051944, 0)
+Main.Size = UDim2.new(0, 530, 0, 389)
+Main.Visible = false
+Main.Active = true
+Main.Draggable = true
+
+ScrollingFrame.Parent = Main
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.Position = UDim2.new(0.256193221, 0, 0.0759165958, 0)
+ScrollingFrame.Size = UDim2.new(0, 394, 0, 359)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 150)
+
+UICorner.CornerRadius = UDim.new(0.100000001, 0)
+UICorner.Parent = ScrollingFrame
+
+AnimationPack.Name = "Animation Pack"
+AnimationPack.Parent = ScrollingFrame
+AnimationPack.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AnimationPack.BorderColor3 = Color3.fromRGB(15, 15, 15)
+AnimationPack.Position = UDim2.new(0.032994926, 0, 0.0112871695, 0)
+AnimationPack.Size = UDim2.new(0, 367, 0, 38)
+AnimationPack.Font = Enum.Font.Unknown
+AnimationPack.Text = "Animation Pack"
+AnimationPack.TextColor3 = Color3.fromRGB(255, 255, 255)
+AnimationPack.TextSize = 14.000
+AnimationPack.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/hA7EuXv2"))()
+end)
+
+AntiStomp.Name = "AntiStomp"
+AntiStomp.Parent = ScrollingFrame
+AntiStomp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AntiStomp.BorderColor3 = Color3.fromRGB(15, 15, 15)
+AntiStomp.Position = UDim2.new(0.032994926, 0, 0.0691277832, 0)
+AntiStomp.Size = UDim2.new(0, 367, 0, 38)
+AntiStomp.Font = Enum.Font.Unknown
+AntiStomp.Text = "AntiStomp "
+AntiStomp.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiStomp.TextSize = 14.000
+AntiStomp.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/RkfNLZrR"))()
+end)
+
+ClickTp.Name = "ClickTp"
+ClickTp.Parent = ScrollingFrame
+ClickTp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ClickTp.BorderColor3 = Color3.fromRGB(15, 15, 15)
+ClickTp.Position = UDim2.new(0.032994926, 0, 0.129539102, 0)
+ClickTp.Size = UDim2.new(0, 367, 0, 38)
+ClickTp.Font = Enum.Font.Unknown
+ClickTp.Text = "ClickTp (Tool)"
+ClickTp.TextColor3 = Color3.fromRGB(255, 255, 255)
+ClickTp.TextSize = 14.000
+ClickTp.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/bcWYwjpN"))()
+end)
+
+FakeMacro.Name = "FakeMacro"
+FakeMacro.Parent = ScrollingFrame
+FakeMacro.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FakeMacro.BorderColor3 = Color3.fromRGB(15, 15, 15)
+FakeMacro.Position = UDim2.new(0.032994926, 0, 0.187379718, 0)
+FakeMacro.Size = UDim2.new(0, 367, 0, 38)
+FakeMacro.Font = Enum.Font.Unknown
+FakeMacro.Text = "Fake Macro (Q)"
+FakeMacro.TextColor3 = Color3.fromRGB(255, 255, 255)
+FakeMacro.TextSize = 14.000
+FakeMacro.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/R6xS4j6N"))()
+end)
+
+Fly.Name = "Fly"
+Fly.Parent = ScrollingFrame
+Fly.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Fly.BorderColor3 = Color3.fromRGB(15, 15, 15)
+Fly.Position = UDim2.new(0.032994926, 0, 0.245220333, 0)
+Fly.Size = UDim2.new(0, 367, 0, 38)
+Fly.Font = Enum.Font.Unknown
+Fly.Text = "Normal Fly (X)"
+Fly.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fly.TextSize = 14.000
+Fly.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/4ydVaLFb"))()
+end)
+
+AdminFly.Name = "AdminFly"
+AdminFly.Parent = ScrollingFrame
+AdminFly.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdminFly.BorderColor3 = Color3.fromRGB(15, 15, 15)
+AdminFly.Position = UDim2.new(0.032994926, 0, 0.303060949, 0)
+AdminFly.Size = UDim2.new(0, 367, 0, 38)
+AdminFly.Font = Enum.Font.Unknown
+AdminFly.Text = "Admin Fly (X)"
+AdminFly.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdminFly.TextSize = 14.000
+AdminFly.MouseButton1Down:Connect(function()
+	getgenv().FLYMODE = "SuperHero"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LPrandom/lua-projects/master/open_sources/freefly.lua"))()
+end)
+
+RemoveDisplay.Name = "RemoveDisplay"
+RemoveDisplay.Parent = ScrollingFrame
+RemoveDisplay.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RemoveDisplay.BorderColor3 = Color3.fromRGB(15, 15, 15)
+RemoveDisplay.Position = UDim2.new(0.032994926, 0, 0.363472253, 0)
+RemoveDisplay.Size = UDim2.new(0, 367, 0, 38)
+RemoveDisplay.Font = Enum.Font.Unknown
+RemoveDisplay.Text = "Remove Display Names"
+RemoveDisplay.TextColor3 = Color3.fromRGB(255, 255, 255)
+RemoveDisplay.TextSize = 14.000
+RemoveDisplay.MouseButton1Down:Connect(function()
+	pcall(function()
+        for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+            if v.Character then
+                if v.Character:FindFirstChild("Humanoid") then
+                    v.Character:FindFirstChild("Humanoid").DisplayName = v.Name 
+                end
+            end
+        end
+    end)
+end)
+
+RemoveFog.Name = "RemoveFog"
+RemoveFog.Parent = ScrollingFrame
+RemoveFog.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RemoveFog.BorderColor3 = Color3.fromRGB(15, 15, 15)
+RemoveFog.Position = UDim2.new(0.032994926, 0, 0.423883557, 0)
+RemoveFog.Size = UDim2.new(0, 367, 0, 38)
+RemoveFog.Font = Enum.Font.Unknown
+RemoveFog.Text = "Remove Fog"
+RemoveFog.TextColor3 = Color3.fromRGB(255, 255, 255)
+RemoveFog.TextSize = 14.000
+RemoveFog.MouseButton1Down:Connect(function()
+	wait()
+		game:GetService('Lighting').FogEnd = 900000000
+end)
+
+SafeAfk.Name = "Safe Afk"
+SafeAfk.Parent = ScrollingFrame
+SafeAfk.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SafeAfk.BorderColor3 = Color3.fromRGB(15, 15, 15)
+SafeAfk.Position = UDim2.new(0.032994926, 0, 0.483009517, 0)
+SafeAfk.Size = UDim2.new(0, 367, 0, 38)
+SafeAfk.Font = Enum.Font.Unknown
+SafeAfk.Text = "Safe Afk"
+SafeAfk.TextColor3 = Color3.fromRGB(255, 255, 255)
+SafeAfk.TextSize = 14.000
+SafeAfk.MouseButton1Down:Connect(function()
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-157.329, -78.224, 140.215)
+		wait()
+		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-157.329, -78.224, 140.215)
+end)
+
+GodBlock.Name = "GodBlock"
+GodBlock.Parent = ScrollingFrame
+GodBlock.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GodBlock.BorderColor3 = Color3.fromRGB(15, 15, 15)
+GodBlock.Position = UDim2.new(0.032994926, 0, 0.728510797, 0)
+GodBlock.Size = UDim2.new(0, 367, 0, 38)
+GodBlock.Font = Enum.Font.Unknown
+GodBlock.Text = "God Block"
+GodBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+GodBlock.TextSize = 14.000
+GodBlock.MouseButton1Down:Connect(function()
+    local localPlayer = game:GetService('Players').LocalPlayer
+    local localCharacter = localPlayer.Character
+   localCharacter:FindFirstChild('BodyEffects'):FindFirstChild('Defense'):FindFirstChild('CurrentTimeBlock'):Destroy()
+          
+end)
+
+Decor.Name = "Decor"
+Decor.Parent = ScrollingFrame
+Decor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Decor.BackgroundTransparency = 1.000
+Decor.Position = UDim2.new(0.157360405, 0, 0.634745777, 0)
+Decor.Size = UDim2.new(0, 269, 0, 50)
+Decor.Font = Enum.Font.Unknown
+Decor.Text = "God Modes"
+Decor.TextColor3 = Color3.fromRGB(255, 255, 255)
+Decor.TextScaled = true
+Decor.TextSize = 14.000
+Decor.TextWrapped = true
+
+GodMode.Name = "GodMode"
+GodMode.Parent = ScrollingFrame
+GodMode.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GodMode.BorderColor3 = Color3.fromRGB(15, 15, 15)
+GodMode.Position = UDim2.new(0.032994926, 0, 0.790207446, 0)
+GodMode.Size = UDim2.new(0, 367, 0, 38)
+GodMode.Font = Enum.Font.Unknown
+GodMode.Text = "God Mode"
+GodMode.TextColor3 = Color3.fromRGB(255, 255, 255)
+GodMode.TextSize = 14.000
+GodMode.MouseButton1Down:Connect(function()
+	local localPlayer = game:GetService('Players').LocalPlayer;
+            local localCharacter = localPlayer.Character;
+            localCharacter:FindFirstChildWhichIsA('Humanoid').Health = 0;
+            for _,v in pairs(localPlayer.Character:GetChildren()) do
+                if v:IsA('MeshPart') or v:IsA('Accessory') then
+                    v:Destroy();
+                end;
+            end;
+            local newCharacter = localPlayer.CharacterAdded:Wait();
+            local spoofFolder = Instance.new('Folder');
+            spoofFolder.Name = 'FULLY_LOADED_CHAR';
+            spoofFolder.Parent = newCharacter;
+            newCharacter:WaitForChild('RagdollConstraints'):Destroy();
+            newCharacter:WaitForChild('BodyEffects'):WaitForChild('Defense'):Destroy();
+            newCharacter:WaitForChild('BodyEffects'):WaitForChild('Armor'):Destroy();
+            local spoofValue = Instance.new('BoolValue', newCharacter);
+            spoofValue.Name = 'RagdollConstraints';
+            local defValue = Instance.new('IntValue', game:GetService('Players').LocalPlayer.Character:FindFirstChild('BodyEffects'));
+            defValue.Name = 'Defense';
+            local armValue = Instance.new('IntValue', game:GetService('Players').LocalPlayer.Character:FindFirstChild('BodyEffects'));
+            armValue.Name = 'Armor';
+end)
+
+GodBullet.Name = "GodBullet"
+GodBullet.Parent = ScrollingFrame
+GodBullet.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GodBullet.BorderColor3 = Color3.fromRGB(15, 15, 15)
+GodBullet.Position = UDim2.new(0.032994926, 0, 0.853189468, 0)
+GodBullet.Size = UDim2.new(0, 367, 0, 38)
+GodBullet.Font = Enum.Font.Unknown
+GodBullet.Text = "God Bullet"
+GodBullet.TextColor3 = Color3.fromRGB(255, 255, 255)
+GodBullet.TextSize = 14.000
+GodBullet.MouseButton1Down:Connect(function()
+	local localPlayer = game:GetService('Players').LocalPlayer;
+            local localCharacter = localPlayer.Character;
+            localCharacter:FindFirstChildWhichIsA('Humanoid').Health = 0;
+            for _,v in pairs(localPlayer.Character:GetChildren()) do
+                if v:IsA('MeshPart') or v:IsA('Accessory') then
+                    v:Destroy();
+                end;
+            end;
+            local newCharacter = localPlayer.CharacterAdded:Wait();
+            local spoofFolder = Instance.new('Folder');
+            spoofFolder.Name = 'FULLY_LOADED_CHAR';
+            spoofFolder.Parent = newCharacter;
+            newCharacter:WaitForChild('RagdollConstraints'):Destroy();
+            newCharacter:WaitForChild('BodyEffects'):WaitForChild('Armor'):Destroy();
+            local spoofValue = Instance.new('BoolValue', newCharacter);
+            spoofValue.Name = 'RagdollConstraints';
+            local armValue = Instance.new('IntValue', game:GetService('Players').LocalPlayer.Character:FindFirstChild('BodyEffects'));
+            armValue.Name = 'Armor';
+end)
+
+DEcoire2.Name = "DEcoire2"
+DEcoire2.Parent = ScrollingFrame
+DEcoire2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DEcoire2.BackgroundTransparency = 1.000
+DEcoire2.Position = UDim2.new(0.157360405, 0, 0.927804828, 0)
+DEcoire2.Size = UDim2.new(0, 269, 0, 50)
+DEcoire2.Font = Enum.Font.Unknown
+DEcoire2.Text = "More Soon .."
+DEcoire2.TextColor3 = Color3.fromRGB(255, 255, 255)
+DEcoire2.TextScaled = true
+DEcoire2.TextSize = 14.000
+DEcoire2.TextWrapped = true
+
+AntiLock.Name = "AntiLock"
+AntiLock.Parent = ScrollingFrame
+AntiLock.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AntiLock.BorderColor3 = Color3.fromRGB(15, 15, 15)
+AntiLock.Position = UDim2.new(0.032994926, 0, 0.54599154, 0)
+AntiLock.Size = UDim2.new(0, 367, 0, 38)
+AntiLock.Font = Enum.Font.Unknown
+AntiLock.Text = "AntiLock"
+AntiLock.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiLock.TextSize = 14.000
+AntiLock.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/chrsschrs/antilocks/main/aa"))()
+end)
+
+Tittle.Name = "Tittle"
+Tittle.Parent = Main
+Tittle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tittle.BackgroundTransparency = 1.000
+Tittle.Position = UDim2.new(0.0351291895, 0, 0.00748625398, 0)
+Tittle.Size = UDim2.new(0, 109, 0, 50)
+Tittle.Font = Enum.Font.SourceSansBold
+Tittle.Text = "Delta"
+Tittle.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tittle.TextScaled = true
+Tittle.TextSize = 14.000
+Tittle.TextWrapped = true
+
+Creds.Name = "Creds"
+Creds.Parent = Main
+Creds.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Creds.BackgroundTransparency = 1.000
+Creds.Position = UDim2.new(-0.00181792642, 0, 0.871239483, 0)
+Creds.Size = UDim2.new(0, 136, 0, 50)
+Creds.Font = Enum.Font.SourceSansBold
+Creds.Text = "Darkx Productions"
+Creds.TextColor3 = Color3.fromRGB(255, 255, 255)
+Creds.TextScaled = true
+Creds.TextSize = 14.000
+Creds.TextWrapped = true
+
+Updates.Name = "Updates"
+Updates.Parent = Main
+Updates.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Updates.BackgroundTransparency = 1.000
+Updates.Position = UDim2.new(-0.00181792676, 0, 0.416226625, 0)
+Updates.Size = UDim2.new(0, 136, 0, 50)
+Updates.Font = Enum.Font.SourceSansBold
+Updates.Text = "Updates Soon..."
+Updates.TextColor3 = Color3.fromRGB(255, 255, 255)
+Updates.TextScaled = true
+Updates.TextSize = 14.000
+Updates.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 0.970
+Close.Position = UDim2.new(0.941509426, 0, -0.0019685803, 0)
+Close.Size = UDim2.new(0, 30, 0, 29)
+Close.Font = Enum.Font.Unknown
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(180, 4, 4)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+Open.Name = "Open"
+Open.Parent = ScreenGui
+Open.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Open.BackgroundTransparency = 0.750
+Open.Position = UDim2.new(0.96524328, 0, 0.455610126, 0)
+Open.Size = UDim2.new(0, 35, 0, 40)
+Open.Font = Enum.Font.SourceSans
+Open.Text = ""
+Open.TextColor3 = Color3.fromRGB(0, 0, 0)
+Open.TextSize = 14.000
+
+-- Scripts:
+
+local function QGJV_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.Main.Visible = false
+	end)
+end
+coroutine.wrap(QGJV_fake_script)()
+local function SLNNBM_fake_script() -- Open.LocalScript 
+	local script = Instance.new('LocalScript', Open)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Main.Visible = true
+	end)
+end
+coroutine.wrap(SLNNBM_fake_script)()
